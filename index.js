@@ -2,7 +2,7 @@
 'use strict';
 
 const path = require('path');
-const OUTDIR_DEFAULT = path.join(__dirname, 'out');
+const OUTDIR_DEFAULT = path.join(process.cwd(), 'out');
 const IMGQUAL_DEFAULT = 50;
 
 const yargs = require('yargs');
