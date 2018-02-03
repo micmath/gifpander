@@ -1,6 +1,6 @@
 # gifpanda
 
-Expand the seperate frames of an animated GIF into a series of static JPG images.
+Expand the separate frames of an animated GIF into a series of static JPG images.
 
 ## Install
 
@@ -30,7 +30,7 @@ gifpanda path/to/myimage.gif
 
 ### Output
 
-Look in the output directory to get the JPG images representing each frame of the animated gif.
+Look in the output directory to get the JPG images representing each frame of the animated GIF.
 
 ## Options
 
