@@ -80,7 +80,7 @@ function expand(image, opts) {
     let outPathName = path.join(opts.outDir, outName);
 
     if (!fs.existsSync(opts.outDir)) {
-        report.log(`# [INFO] Out dir does not exist, creating at: ${opts.outDir}`);
+        console.log(`Out dir does not exist, creating at: ${opts.outDir}`);
         mkdirp.sync(opts.outDir);
     }
 
