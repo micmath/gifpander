@@ -1,0 +1,26 @@
+{
+  "name": "gifpanda",
+  "version": "1.0.0",
+  "description": "Expand the frames of an animated GIF into a series of static JPG images.",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "main": "index.js",
+  "bin": {
+    "gifpanda": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "micmath@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "elegant-status": "^1.1.0",
+    "gif-info": "^1.0.1",
+    "gm": "^1.23.1",
+    "jimp": "^0.2.28",
+    "mkdirp": "^0.5.1",
+    "node-dir": "^0.1.17",
+    "yargs": "^11.0.0"
+  }
+}
