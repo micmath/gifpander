@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "bin": {
-    "gifpander": "./index.js"
+    "gifpander": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "elegant-status": "^1.1.0",
     "gm": "^1.23.1",
     "mkdirp": "^0.5.1",
-    "yargs": "^11.0.0"
+    "yargs": "^16.1.0"
   },
   "repository": {
     "type": "git",
