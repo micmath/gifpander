@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "micmath@gmail.com",
+  "author": "Michael Mathews <micmath@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "elegant-status": "^1.1.0",
